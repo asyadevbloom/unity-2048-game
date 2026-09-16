@@ -1,0 +1,143 @@
+{
+    "version": 1,
+    "name": "GameInput",
+    "maps": [
+        {
+            "name": "GamePlay",
+            "id": "b5ce7e4d-303b-44f3-b06b-0375ec9ce541",
+            "actions": [
+                {
+                    "name": "MoveUp",
+                    "type": "Button",
+                    "id": "3d5937c2-4577-48db-a976-5c18b1f680df",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "MoveDown",
+                    "type": "Button",
+                    "id": "c8e855de-2c52-454b-a95b-0159215a0548",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "MoveLeft",
+                    "type": "Button",
+                    "id": "b8f79ed9-ea5a-440e-b3b3-f8da410a3dbb",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "MoveRight",
+                    "type": "Button",
+                    "id": "6ecda943-f6dc-4144-9c62-1256f8f62d11",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "16b3d259-f3ad-433e-b352-4ed5dabacb5f",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "18a54390-c68d-4c24-906a-acede4fe4c8a",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ee44c030-457e-4b81-8988-bafe0ad2d939",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "20d6c3fc-3775-487a-ad28-91cefef21ebd",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "01d189cb-d5d2-4dbc-9351-b9c923d1666f",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a8fa99d2-c3a9-4d45-8cc1-0fd58244b9b1",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9404f00f-fdc8-42c1-bbf0-5da78d916d44",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "891626be-6277-4c62-96db-f84d8394936e",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
